@@ -198,11 +198,11 @@ export const Stake = (props: Props) => {
   return (
     <div className={styles.stakeCard}>
       <div className={styles.stakeCard_header}>
-        <h2 className={t.h4}>Stake KLIMA.</h2>
+        <h2 className={t.h4}>Stake BLOOM.</h2>
         <p className={t.body2}>
           Hold, stake, and compound. If the protocol earns a profit selling
           carbon bonds, these rewards are shared among all holders of staked
-          KLIMA (sKLIMA).
+          BLOOM (sBLOOM).
         </p>
       </div>
       <div className={styles.inputsContainer}>
@@ -268,7 +268,7 @@ export const Stake = (props: Props) => {
             Balance
             <TextInfoTooltip
               singleton={singleton}
-              content="Unstaked KLIMA, not generating interest"
+              content="Unstaked BLOOM, not generating interest"
             >
               <div tabIndex={0} className={styles.infoIconWrapper}>
                 <InfoOutlined />
@@ -280,7 +280,7 @@ export const Stake = (props: Props) => {
               condition={!isConnected}
               placeholder="NOT CONNECTED"
             >
-              <span>{trimWithPlaceholder(balances?.klima, 4)}</span> KLIMA
+              <span>{trimWithPlaceholder(balances?.klima, 4)}</span> BLOOM
             </WithPlaceholder>
           </div>
         </li>
@@ -290,7 +290,7 @@ export const Stake = (props: Props) => {
             Staked
             <TextInfoTooltip
               singleton={singleton}
-              content="Staked KLIMA generating interest"
+              content="Staked BLOOM generating interest"
             >
               <div tabIndex={0} className={styles.infoIconWrapper}>
                 <InfoOutlined />
@@ -302,7 +302,7 @@ export const Stake = (props: Props) => {
               condition={!isConnected}
               placeholder="NOT CONNECTED"
             >
-              <span>{trimWithPlaceholder(balances?.sklima, 4)}</span> sKLIMA
+              <span>{trimWithPlaceholder(balances?.sklima, 4)}</span> sBLOOM
             </WithPlaceholder>
           </div>
         </li>
@@ -327,7 +327,7 @@ export const Stake = (props: Props) => {
             Rebase value
             <TextInfoTooltip
               singleton={singleton}
-              content="Approximate amount of sKLIMA you will receive at next rebase"
+              content="Approximate amount of sBLOOM you will receive at next rebase"
             >
               <div tabIndex={0} className={styles.infoIconWrapper}>
                 <InfoOutlined />
@@ -335,7 +335,7 @@ export const Stake = (props: Props) => {
             </TextInfoTooltip>
           </div>
           <div className={styles.dataContainer_value}>
-            <span>{trimWithPlaceholder(nextRebaseValue, 2)}</span> sKLIMA
+            <span>{trimWithPlaceholder(nextRebaseValue, 2)}</span> sBLOOM
           </div>
         </li>
         <li className={styles.dataContainer_row}>
@@ -393,7 +393,7 @@ export const Stake = (props: Props) => {
             Current index
             <TextInfoTooltip
               singleton={singleton}
-              content="Amount you would have today, if you staked 1 KLIMA on launch day. Useful for accounting purposes."
+              content="Amount you would have today, if you staked 1 BLOOM on launch day. Useful for accounting purposes."
             >
               <div tabIndex={0} className={styles.infoIconWrapper}>
                 <InfoOutlined />
@@ -401,7 +401,7 @@ export const Stake = (props: Props) => {
             </TextInfoTooltip>
           </div>
           <div className={styles.dataContainer_value}>
-            <span>{trimWithPlaceholder(currentIndex, 4)}</span> KLIMA
+            <span>{trimWithPlaceholder(currentIndex, 4)}</span> BLOOM
           </div>
         </li>
       </ul>

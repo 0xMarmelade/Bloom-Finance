@@ -20,19 +20,19 @@ export const useBond = (bond: Bond) => {
     discount: bondState?.bondDiscount,
     name: {
       bct: "BCT",
-      klima_bct_lp: "BCT/KLIMA LP",
+      klima_bct_lp: "BCT/BLOOM LP",
       bct_usdc_lp: "BCT/USDC LP",
       // future bond names go here
     }[bond],
     description: {
       bct: "Base Carbon Tons (Verra Carbon Standard)",
-      klima_bct_lp: "BCT/KLIMA Sushiswap LP Bonds",
+      klima_bct_lp: "BCT/BLOOM Sushiswap LP Bonds",
       bct_usdc_lp: "BCT/USDC Sushiswap LP Bonds",
       // future bond descriptions go here
     }[bond],
     href: {
       bct: "/bonds/bct",
-      klima_bct_lp: "/bonds/klima_bct_lp",
+      klima_bct_lp: "/bonds/BLOOM_bct_lp",
       bct_usdc_lp: "/bonds/bct_usdc_lp",
       // future bond hrefs go here
     }[bond],
@@ -52,8 +52,8 @@ export function ChooseBond() {
       <div className={styles.stakeCard_header}>
         <h2 className={t.h4}>Bond Carbon.</h2>
         <p className={t.body2}>
-          The best way to buy KLIMA. Commit carbon to our treasury, and receive
-          KLIMA at a discount. All bonds have a mandatory 5-day vesting period.
+          The best way to buy BLOOM. Commit carbon to our treasury, and receive
+          BLOOM at a discount. All bonds have a mandatory 5-day vesting period.
         </p>
       </div>
 

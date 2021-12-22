@@ -338,7 +338,7 @@ export const Home: FC = () => {
                 </a>
               </div>
               <p className={t.h6} style={{ maxWidth: "46rem" }}>
-                Welcome to the Klima dApp. Bond carbon to buy KLIMA. Stake KLIMA
+                Welcome to the BLOOM dApp. Bond carbon-based assets to buy BLOOM. Stake BLOOM
                 to earn interest.
               </p>
             </div>
@@ -441,7 +441,7 @@ export const Home: FC = () => {
         <footer className={styles.footer}>
           <div className={styles.footer_content}>
             <a href={urls.home} className={styles.footer_logo}>
-              <img src="klima-logo.png" alt="" />
+              <img src="bloom-logo.png" alt="" />
             </a>
             <nav className={styles.footer_content_nav}>
               <a href={urls.home}>home</a>

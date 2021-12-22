@@ -26,30 +26,30 @@ interface Props {
 export const Info: FC<Props> = (props) => {
   const addressInfo: AdressInfo[] = [
     {
-      name: "KLIMA Token",
+      name: "BLOOM Token",
       address: addresses["mainnet"].klima,
-      ariaLabel: "Copy KLIMA token address.",
-      metamaskAriaLabel: "Add KLIMA token to wallet.",
-      ticker: "KLIMA",
-      image: `${BASE_URL}/icons/klima-logo.jpeg`,
+      ariaLabel: "Copy BLOOM token address.",
+      metamaskAriaLabel: "Add BLOOM token to wallet.",
+      ticker: "BLOOM",
+      image: `${BASE_URL}/icons/bloom-logo.jpeg`,
       decimals: 9,
     },
     {
-      name: "sKLIMA Token",
+      name: "sBLOOM Token",
       address: addresses["mainnet"].sklima,
-      ariaLabel: "Copy sKLIMA token address.",
-      metamaskAriaLabel: "Add sKLIMA token to wallet.",
-      ticker: "sKLIMA",
-      image: `${BASE_URL}/icons/klima-logo.jpeg`,
+      ariaLabel: "Copy sBLOOM token address.",
+      metamaskAriaLabel: "Add sBLOOM token to wallet.",
+      ticker: "sBLOOM",
+      image: `${BASE_URL}/icons/bloom-logo.jpeg`,
       decimals: 9,
     },
     {
-      name: "wsKLIMA Token",
+      name: "wsBLOOM Token",
       address: addresses["mainnet"].wsklima,
       ariaLabel: "Copy wsKLIMA token address.",
       metamaskAriaLabel: "Add wsKLIMA token to wallet.",
       ticker: "wsKLIMA",
-      image: `${BASE_URL}/icons/klima-logo.jpeg`,
+      image: `${BASE_URL}/icons/bloom-logo.jpeg`,
       decimals: 18,
     },
     {
@@ -71,11 +71,11 @@ export const Info: FC<Props> = (props) => {
       decimals: 18,
     },
     {
-      name: "BCT/KLIMA LP",
+      name: "BCT/BLOOM LP",
       address: addresses["mainnet"].klimaBctLp,
-      ariaLabel: "Copy KLIMA BCT LP address.",
-      metamaskAriaLabel: "Add KLIMA BCT LP to wallet.",
-      ticker: "BCT/KLIMA",
+      ariaLabel: "Copy BLOOM BCT LP address.",
+      metamaskAriaLabel: "Add BLOOM BCT LP to wallet.",
+      ticker: "BCT/BLOOM",
       image: `${BASE_URL}/icons/lp-logo.png`,
       decimals: 18,
     },
@@ -87,7 +87,7 @@ export const Info: FC<Props> = (props) => {
         <h2 className={t.h4}>{"Info & FAQ"}</h2>
         <p className={t.body2}>
           Common app-related questions and useful links. For comprehensive
-          reading on KlimaDAO, see our{" "}
+          reading on BloomDAO, see our{" "}
           <a target="_blank" rel="noreferrer noopener" href={urls.officialDocs}>
             official docs
           </a>
@@ -97,7 +97,7 @@ export const Info: FC<Props> = (props) => {
         <h3 className={t.overline}>FAQ</h3>
         <div style={{ display: "grid", gap: "2.4rem" }}>
           <div style={{ display: "grid", gap: "0.4rem" }}>
-            <h4 className={t.h5}>Where can I get KLIMA?</h4>
+            <h4 className={t.h5}>Where can I get BLOOM?</h4>
             <p className={t.body2}>
               See our{" "}
               <a target="_blank" rel="noreferrer noopener" href={urls.tutorial}>
@@ -113,14 +113,14 @@ export const Info: FC<Props> = (props) => {
               network configuration in Metamask. To fix this: <br />
               1. Open Metamask and switch to Ethereum Mainnet <br />
               2. Go to Settings/Networks/Polygon and click 'delete' <br />
-              3. Return to dapp.klimadao.finance and click 'switch to mainnet'.{" "}
+              3. Return to bloom-finance-dashboard.vercel.app and click 'switch to mainnet'.{" "}
               <br />
               Metamask should prompt you to add Polygon, with the correct RPC
               configuration.
             </p>
           </div>
           <div style={{ display: "grid", gap: "0.8rem" }}>
-            <h4 className={t.h5}>Why don't I see my sKLIMA balance?</h4>
+            <h4 className={t.h5}>Why don't I see my sBLOOM balance?</h4>
             <p className={t.body2}>
               There is a small bug affecting users who staked in the first 18
               hours after launch. We have posted{" "}
@@ -177,7 +177,7 @@ export const Info: FC<Props> = (props) => {
             rel="noopener noreferrer"
             href={urls.sushiKLIMABCT}
           >
-            🍣 SushiSwap KLIMA/BCT
+            🍣 SushiSwap BLOOM/BCT
           </a>
           <a target="_blank" rel="noopener noreferrer" href={urls.communityHub}>
             👨‍👩‍👧‍👧 Community Hub (tutorials & more)

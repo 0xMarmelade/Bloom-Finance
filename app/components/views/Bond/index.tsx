@@ -415,7 +415,7 @@ export const Bond: FC<Props> = (props) => {
             <div className={styles.dataContainer_label}>
               Bond price
               <TextInfoTooltip
-                content="Discounted price. Total amount to bond 1 full KLIMA (fractional bonds are also allowed)"
+                content="Discounted price. Total amount to bond 1 full BLOOM (fractional bonds are also allowed)"
                 singleton={singleton}
               >
                 <div tabIndex={0} className={styles.infoIconWrapper}>
@@ -431,7 +431,7 @@ export const Bond: FC<Props> = (props) => {
             <div className={styles.dataContainer_label}>
               Market Price
               <TextInfoTooltip
-                content="Current trading price of KLIMA, without bond discount"
+                content="Current trading price of BLOOM, without bond discount"
                 singleton={singleton}
               >
                 <div tabIndex={0} className={styles.infoIconWrapper}>
@@ -447,7 +447,7 @@ export const Bond: FC<Props> = (props) => {
             <div className={styles.dataContainer_label}>
               ROI (bond discount)
               <TextInfoTooltip
-                content="Return on investment, expressed as a percentage discount on the market value of KLIMA"
+                content="Return on investment, expressed as a percentage discount on the market value of bloom"
                 singleton={singleton}
               >
                 <div tabIndex={0} className={styles.infoIconWrapper}>
@@ -467,7 +467,7 @@ export const Bond: FC<Props> = (props) => {
               You will get
               <TextInfoTooltip
                 singleton={singleton}
-                content="Amount of bonded KLIMA you will get, at the provided input quantity"
+                content="Amount of bonded bloom you will get, at the provided input quantity"
               >
                 <div tabIndex={0} className={styles.infoIconWrapper}>
                   <InfoOutlined />
@@ -481,7 +481,7 @@ export const Bond: FC<Props> = (props) => {
                   Number(bondState?.bondQuote) < 1 ? 5 : 2
                 )}
               </span>{" "}
-              KLIMA
+              bloom
             </div>
           </li>
           <li className={styles.dataContainer_row}>
@@ -489,7 +489,7 @@ export const Bond: FC<Props> = (props) => {
               Maximum
               <TextInfoTooltip
                 singleton={singleton}
-                content="Maximum amount of KLIMA you can acquire by bonding"
+                content="Maximum amount of bloom you can acquire by bonding"
               >
                 <div tabIndex={0} className={styles.infoIconWrapper}>
                   <InfoOutlined />
@@ -506,7 +506,7 @@ export const Bond: FC<Props> = (props) => {
               >
                 {trimWithPlaceholder(bondState?.maxBondPrice, 2)}
               </span>{" "}
-              KLIMA
+              bloom
             </div>
           </li>
           <li className={styles.dataContainer_row}>
@@ -536,7 +536,7 @@ export const Bond: FC<Props> = (props) => {
               Vesting term
               <TextInfoTooltip
                 singleton={singleton}
-                content="Time period over which bonded KLIMA is made available for redemption"
+                content="Time period over which bonded bloom is made available for redemption"
               >
                 <div tabIndex={0} className={styles.infoIconWrapper}>
                   <InfoOutlined />
@@ -576,7 +576,7 @@ export const Bond: FC<Props> = (props) => {
                 placeholder="NOT CONNECTED"
               >
                 <span>{trimWithPlaceholder(bondState?.interestDue, 4)}</span>{" "}
-                KLIMA
+                bloom
               </WithPlaceholder>
             </div>
           </li>
@@ -585,7 +585,7 @@ export const Bond: FC<Props> = (props) => {
               Redeemable
               <TextInfoTooltip
                 singleton={singleton}
-                content="Amount of KLIMA that has already vested and can be redeemed"
+                content="Amount of bloom that has already vested and can be redeemed"
               >
                 <div tabIndex={0} className={styles.infoIconWrapper}>
                   <InfoOutlined />
@@ -603,7 +603,7 @@ export const Bond: FC<Props> = (props) => {
                     Number(bondState?.pendingPayout) < 1 ? 5 : 2
                   )}
                 </span>{" "}
-                KLIMA
+                bloom
               </WithPlaceholder>
             </div>
           </li>

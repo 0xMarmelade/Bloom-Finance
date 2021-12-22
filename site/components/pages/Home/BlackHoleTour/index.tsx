@@ -81,10 +81,10 @@ const BlackHoleTour = () => {
         )}
       />
       <TourItem
-        title="Klima Treasury"
-        text="The treasury is the center of the black hole. Every KLIMA token is
+        title="Bloom Treasury"
+        text="The treasury is the center of the black hole. Every BLOOM token is
           backed by 1 tonne of verified, tokenized carbon reduction or removal. These
-          can remain locked in the treasury indefinitely, or sold to balance the price of KLIMA."
+          can remain locked in the treasury indefinitely, or sold to balance the price of BLOOM."
       />
       <IntersectDetector
         onIntersect={handleIntersect(
@@ -100,7 +100,7 @@ const BlackHoleTour = () => {
       />
       <TourItem
         title="Carbon Credits"
-        text="KLIMA is a vacuum for carbon. The treasury only accepts certified, third-party verified emissions
+        text="BLOOM is a vacuum for carbon. The treasury only accepts certified, third-party verified emissions
         reductions from reputable carbon markets (sometimes called 'carbon
         offsets' or 'carbon credits'). Each is tokenized in a
         transparent and traceable way to prevent double-spending or
@@ -121,7 +121,7 @@ const BlackHoleTour = () => {
       />
       <TourItem
         title="Bonding"
-        text="Bonding is how carbon enters the treasury, and new KLIMA is created. Anyone can buy KLIMA at a discount by bonding carbon units and LP shares over a set vesting period."
+        text="Bonding is how carbon enters the treasury, and new BLOOM is created. Anyone can buy BLOOM at a discount by bonding carbon units and LP shares over a set vesting period."
       />
       <IntersectDetector
         onIntersect={handleIntersect(
@@ -138,11 +138,11 @@ const BlackHoleTour = () => {
       <TourItem
         title="Staking"
         text="Carbon comes in, value comes out.
-        Holders of KLIMA can earn compounding interest on their KLIMA by
-        staking. Staking encourages long-term holding of KLIMA, and
+        Holders of BLOOM can earn compounding interest on their BLOOM by
+        staking. Staking encourages long-term holding of BLOOM, and
         allows participants to benefit from the rising price of carbon. As the
         protocol generates a profit through Bond sales, this profit is
-        allocated to everyone who has staked KLIMA."
+        allocated to everyone who has staked BLOOM."
       />
       <IntersectDetector onIntersect={handleIntersect(initialView)} />
       <div className={styles.gap} />
