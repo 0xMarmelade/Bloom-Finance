@@ -326,7 +326,7 @@ export const Home: FC = () => {
     <>
       <div className={styles.container}>
         <div className={styles.heroBackgroundContainer}>
-          <img src="/green-wormhole.jpg" alt="" />
+          <img src="public/green-wormhole.jpg" alt="" />
           <div className={styles.heroGradient} />
         </div>
         <div className={styles.heroSection}>
@@ -334,7 +334,7 @@ export const Home: FC = () => {
             <div className={styles.header_leftCol}>
               <div className={styles.logoContainer}>
                 <a href={urls.home} style={{ justifySelf: "start" }}>
-                  <img src="/bloom-logo.png" alt="Logo. Go home." />
+                  <img src="public/bloom-logo.png" alt="Logo. Go home." />
                 </a>
               </div>
               <p className={t.h6} style={{ maxWidth: "46rem" }}>
