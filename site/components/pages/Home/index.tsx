@@ -10,7 +10,7 @@ import BlackHoleTour from "components/pages/Home/BlackHoleTour";
 import { DiscordIcon } from "components/Icons/DiscordIcon";
 import greenWormhole from "public/green-wormhole.jpg";
 import polygonBadge from "public/polygon-badge.png";
-import klimaLogo from "public/klima-logo.png";
+import klimaLogo from "public/bloom-logo.png";
 
 import { urls } from "@klimadao/lib/constants";
 import t from "@klimadao/lib/theme/typography.module.css";

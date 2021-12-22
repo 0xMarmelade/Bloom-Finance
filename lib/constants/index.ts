@@ -50,7 +50,7 @@ export const addresses = {
 };
 
 export const urls = {
-  home: "https://www.klimadao.finance/",
+  home: "https://www.bloom-finance.vercel.app/",
   epaSource:
     "https://www.epa.gov/energy/greenhouse-gases-equivalencies-calculator-calculations-and-references",
   blog: "https://klimadao.medium.com/",
@@ -58,7 +58,7 @@ export const urls = {
     "https://docs.google.com/forms/d/e/1FAIpQLSeJ4-dPoSBS50kT1hSBzQGiA8lMnL5DYKjptQoMBKmgFokJmg/viewform",
   discordInvite: "https://discord.gg/kx4pahaFw8",
   gitbook: "https://klima-dao.gitbook.io/klima-dao/",
-  app: "https://dapp.klimadao.finance",
+  app: "https://bloom-finance-dashboard.vercel.app",
   polygonMainnetRpc: "https://polygon-rpc.com/",
   sushiUSDCBCT: `https://app.sushi.com/swap?inputCurrency=0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174&outputCurrency=${addresses["mainnet"].bct}`,
   sushiKLIMABCT: `https://app.sushi.com/swap?inputCurrency=${addresses["mainnet"].klima}&outputCurrency=${addresses["mainnet"].bct}`,

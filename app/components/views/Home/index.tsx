@@ -334,7 +334,7 @@ export const Home: FC = () => {
             <div className={styles.header_leftCol}>
               <div className={styles.logoContainer}>
                 <a href={urls.home} style={{ justifySelf: "start" }}>
-                  <img src="/klima-logo.png" alt="Logo. Go home." />
+                  <img src="/bloom-logo.png" alt="Logo. Go home." />
                 </a>
               </div>
               <p className={t.h6} style={{ maxWidth: "46rem" }}>
