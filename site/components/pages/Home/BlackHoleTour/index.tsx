@@ -99,7 +99,7 @@ const BlackHoleTour = () => {
         )}
       />
       <TourItem
-        title="Carbon Credits"
+        title="Green Bonds !TO EDIT!"
         text="BLOOM is a vacuum for carbon. The treasury only accepts certified, third-party verified emissions
         reductions from reputable carbon markets (sometimes called 'carbon
         offsets' or 'carbon credits'). Each is tokenized in a
