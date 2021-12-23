@@ -24,6 +24,11 @@ import { Wrap } from "components/views/Wrap";
 import { InvalidNetworkModal } from "components/InvalidNetworkModal";
 import { InvalidRPCModal } from "components/InvalidRPCModal";
 
+import Image from "next/image";
+import greenWormhole from "public/green-wormhole.jpg";
+import polygonBadge from "public/polygon-badge.png";
+import klimaLogo from "public/bloom-logo.png";
+
 import styles from "./index.module.css";
 
 type EIP1139Provider = ethers.providers.ExternalProvider & {
@@ -326,7 +331,15 @@ export const Home: FC = () => {
     <>
       <div className={styles.container}>
         <div className={styles.heroBackgroundContainer}>
-          <img src="green-wormhole.jpg" alt="" />
+        <div className={styles.heroBgImgContainer}>
+          <Image
+            src={greenWormhole}
+            alt=""
+            layout="fill"
+            objectFit="cover"
+            priority
+          />
+        </div>
           <div className={styles.heroGradient} />
         </div>
         <div className={styles.heroSection}>
@@ -334,7 +347,13 @@ export const Home: FC = () => {
             <div className={styles.header_leftCol}>
               <div className={styles.logoContainer}>
                 <a href={urls.home} style={{ justifySelf: "start" }}>
-                  <img src="bloom-logo.png" alt="Logo. Go home." />
+                <Image
+                src={klimaLogo}
+                alt="Logo. Go home"
+                layout="responsive"
+                objectFit="contain"
+                priority
+              />
                 </a>
               </div>
               <p className={t.h6} style={{ maxWidth: "46rem" }}>
