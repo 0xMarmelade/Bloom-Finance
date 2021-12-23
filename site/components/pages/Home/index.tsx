@@ -160,15 +160,15 @@ export const Home: NextPage<Props> = (props) => {
             <span className={styles.secondaryAccent}>an ecosystem</span>
           </h2>
           <p className={styles.centeredCard_text}>
-            KlimaDAO’s goal is to accelerate the price appreciation of carbon
+            Bloom Finance's goal is to accelerate the price appreciation of carbon
             assets. A high price for carbon forces companies and economies to
             adapt more quickly to the realities of climate change, and makes
             low-carbon technologies and carbon-removal projects more profitable.
           </p>
           <p className={styles.centeredCard_text}>
-            Through the KLIMA token, we will maximize value creation for our
+            Through the BLOOM token, we will maximize value creation for our
             community and create a virtuous cycle of growth. Eventually, the
-            KLIMA token (each backed by real, verified carbon assets) will
+            BLOOM token (each backed by real, verified green bonds) will
             function as a truly sustainable asset and medium-of-exchange, with
             real planetary value.
           </p>
