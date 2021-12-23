@@ -57,7 +57,7 @@ export const urls = {
   emailSignUp:
     "https://docs.google.com/forms/d/e/1FAIpQLSeJ4-dPoSBS50kT1hSBzQGiA8lMnL5DYKjptQoMBKmgFokJmg/viewform",
   discordInvite: "https://discord.gg/QTtCgjSp3r",
-  gitbook: "https://klima-dao.gitbook.io/klima-dao/",
+  gitbook: "https://bloom-finance.gitbook.io/business-plan",
   app: "https://bloom-finance-dashboard.vercel.app",
   polygonMainnetRpc: "https://polygon-rpc.com/",
   sushiUSDCBCT: `https://app.sushi.com/swap?inputCurrency=0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174&outputCurrency=${addresses["mainnet"].bct}`,
