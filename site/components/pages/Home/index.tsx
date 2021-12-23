@@ -75,6 +75,13 @@ export const Home: NextPage<Props> = (props) => {
               algorithmic digital currency.
             </p>
           </header>
+          <div className={t.overline} style={{ opacity: 0.7, fontSize:10}}>
+            <p><i>*Forked and adapted from open-source <a href="https://klimadao.medium.com/">KlimaDao</a> platform*</i></p>
+            <p><i>Educational prototype made for MGT-498</i></p>
+            <p><i>Digital Platforms & Business models | EPFL, UNIL, IMD</i></p>
+            
+
+          </div>
           <nav className={styles.stack}>
             <a className={styles.iconButton} href={urls.discordInvite}>
               <DiscordIcon className={styles.discordIcon} />
@@ -83,10 +90,6 @@ export const Home: NextPage<Props> = (props) => {
             <a className={styles.iconButton} href={urls.gitbook}>
               <DescriptionOutlinedIcon />
               docs
-            </a>
-            <a className={styles.iconButton} href={urls.blog}>
-              <BookmarkBorderOutlinedIcon />
-              blog
             </a>
             <a className={styles.iconButton} href={urls.app}>
               <ExitToAppOutlinedIcon />
@@ -146,6 +149,9 @@ export const Home: NextPage<Props> = (props) => {
                 </p>
               </div>
             </div>
+          </div>
+          <div className={t.overline} style={{ opacity: 0.7 }}>
+            <p>Oscar K., Oscar V., Eva N., Mathieu B.</p>
           </div>
           <div className={styles.scrollArrowNudge}>
             <ChevronLeftIcon />
